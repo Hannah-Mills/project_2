@@ -38,14 +38,22 @@ main {
  */
 
 h1 {
-  font-size: 7em;
+  font-size: 7vw;
   margin: -.2em 0em;
 }
 h2 {
-  font-size: 3em;
+  font-size: 3vw;
   margin: 0em 0em;
 }
-
+h3 {
+  font-size: 1.8vw;
+}
+h4 {
+  font-size: 1.4vw;
+}
+h5 {
+  font-size: 1.2vw;
+}
 /* Grouping content
    ========================================================================== */
 
