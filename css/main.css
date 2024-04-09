@@ -104,12 +104,12 @@ margin-left: -17%;
   max-width: 30%;
  }
  .two_right_box {
-  padding-left:160px
+  padding-left:160px;
  }
  .two_right_box_inner {
   display: flex;
   flex-flow:row;
-  gap: 10px;
+  gap: 20px;
   padding: 5px;
  }
  .two_first_box {
@@ -122,16 +122,20 @@ margin-left: -17%;
   flex-flow: column;
   justify-content: flex-end;
    margin-left: 10%;
-   margin-right: 10%;
+   margin-right: 20%;
    transform: rotate(-45deg);
    max-width: 50%;
+   text-align: right;
  }
  .two_fst_body_text {
   margin-top: -5%;
+  margin-right: 5%;
  }
  .two_snd_body_text {
   margin-top: -5%;
+  margin-right: 15%;
  }
  .two_trd_body_text {
   margin-top: -5%;
+  margin-right: 20%;
  }
