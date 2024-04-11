@@ -4,10 +4,13 @@ body {
     font-weight: 400;
     font-style: normal;
     padding: 10px;
-    background-color: darkgrey;
+    background: -webkit-linear-gradient(#231353, #548493);
+    background:    -moz-linear-gradient(#231353, #548493);
+    background:         linear-gradient(#231353, #548493);
     margin-left: auto;
     margin-right: auto;
     max-width: 70%;
+    color: white;
 }  
 .title {
   margin-left: 10%;
@@ -159,43 +162,53 @@ margin-left: -17%;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 .front {
   transform: translateZ(100px);
   text-align: justify;
+  color: white;
 }
 .back {
   transform: translateZ(-100px) rotateY(180deg);
+  color: white;
 }
 .left {
   transform: translateX(-100px) rotateY(-90deg);
   text-align: justify;
+  color: white;
 }
 .right {
   transform: translateX(100px) rotateY(90deg);
+  color: white;
 }
 .top {
   transform: translateY(-100px) rotateX(90deg);
+  color: white;
 }
 .bottom {
   transform: translateY(100px) rotateX(-90deg);
   text-align: justify;
+  color: white;
 }
 .main_text {
   transform: rotate(45deg);
   position: absolute;
   margin-top: 43%;
   margin-left: 12%;
+  color: white;
 }
 .mt_one {
   margin-top: 3%;
+  color: white;
 }
 .bottom_page {
   display: flex;
   flex-flow: row;
  align-items: flex-end;
- margin-top: 70%;
+ margin-top: 80%;
  gap: 20px;
+ color: white;
 }
 .building_a {
   width: 150px;
@@ -224,10 +237,17 @@ margin-left: -17%;
   border: 3px solid;
 }
 .image {
-margin-top: -55%;
-width: 900px;
+margin-top: -49%;
+margin-left: -22%;
+width: 1500px;
 height: 520px;
 align-items: center;
-position: relative;
-background-image: url(city.png);
+background-image: url(../img/city.png);
+}
+.bottom_border {
+  background-color: #0a3f69;
+  width: 1500px;
+  height: 170px;
+  margin-top: -2%;
+  margin-left: -22%;
 }
