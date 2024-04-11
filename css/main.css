@@ -206,36 +206,56 @@ margin-left: -17%;
   display: flex;
   flex-flow: row;
  align-items: flex-end;
- margin-top: 80%;
+ margin-top: 60%;
  gap: 20px;
  color: white;
+ text-align: center;
 }
 .building_a {
   width: 150px;
-  border: 3px solid;
+  border: 2px solid;
+  background: -webkit-linear-gradient(#3b73a2, #0a3f69);
+  background:    -moz-linear-gradient(#3b73a2, #0a3f69);
+  background:         linear-gradient(#3b73a2, #0a3f69);
 }
 .building_b {
   width: 125px;
-  border: 3px solid;
+  border: 2px solid;
+  background: -webkit-linear-gradient(#3b73a2, #0a3f69);
+  background:    -moz-linear-gradient(#3b73a2, #0a3f69);
+  background:         linear-gradient(#3b73a2, #0a3f69);
 }
 .building_c {
   width: 150px;
-  border: 3px solid;
+  border: 2px solid;
+  background: -webkit-linear-gradient(#3b73a2, #0a3f69);
+  background:    -moz-linear-gradient(#3b73a2, #0a3f69);
+  background:         linear-gradient(#3b73a2, #0a3f69);
 }
 .building_d {
   width: 200px;
-  border: 3px solid;
+  border: 2px solid;
+  background: -webkit-linear-gradient(#3b73a2, #0a3f69);
+  background:    -moz-linear-gradient(#3b73a2, #0a3f69);
+  background:         linear-gradient(#3b73a2, #0a3f69);
 }
 .building_e {
   width: 120px;
   height: 500px;
-  border: 3px solid;
+  border: 2px solid;
+  background: -webkit-linear-gradient(#3b73a2, #0a3f69);
+  background:    -moz-linear-gradient(#3b73a2, #0a3f69);
+  background:         linear-gradient(#3b73a2, #0a3f69);
 }
 .building_f {
   width: 100px;
   height: 800px;
-  border: 3px solid;
+  border: 2px solid;
+  background: -webkit-linear-gradient(#3b73a2, #0a3f69);
+  background:    -moz-linear-gradient(#3b73a2, #0a3f69);
+  background:         linear-gradient(#3b73a2, #0a3f69);
 }
+
 .image {
 margin-top: -49%;
 margin-left: -22%;
@@ -250,4 +270,12 @@ background-image: url(../img/city.png);
   height: 170px;
   margin-top: -2%;
   margin-left: -22%;
+}
+.stars {
+  background-image: url(../img/Floating-Stars-PNG-Images-HD.png);
+  width: 1500px;
+  height: 1500px;
+  margin-left: -25%;
+  opacity: 10%;
+  position: absolute;
 }
