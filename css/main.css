@@ -195,14 +195,14 @@ margin-left: -17%;
   flex-flow: row;
  align-items: flex-end;
  margin-top: 70%;
- gap: 10px;
+ gap: 20px;
 }
 .building_a {
   width: 150px;
   border: 3px solid;
 }
 .building_b {
-  width: 150px;
+  width: 125px;
   border: 3px solid;
 }
 .building_c {
@@ -210,10 +210,24 @@ margin-left: -17%;
   border: 3px solid;
 }
 .building_d {
-  width: 150px;
+  width: 200px;
   border: 3px solid;
 }
 .building_e {
-  width: 150px;
+  width: 120px;
+  height: 500px;
   border: 3px solid;
+}
+.building_f {
+  width: 100px;
+  height: 800px;
+  border: 3px solid;
+}
+.image {
+margin-top: -55%;
+width: 900px;
+height: 520px;
+align-items: center;
+position: relative;
+background-image: url(city.png);
 }
